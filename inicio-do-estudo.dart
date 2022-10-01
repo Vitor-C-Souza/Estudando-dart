@@ -1,10 +1,8 @@
-//import 'dart:ffi';
+
 import 'dart:io';
 
 main() {
-  int idade = 17;
   const double dinheiro = 2000.24;
-  bool pobretometro = (idade > dinheiro);
   final String nome = "vitor";
   var duration = Duration(seconds: 1);
 
@@ -13,7 +11,7 @@ main() {
   int resultado;
 
   print(nome);
-  print(pobretometro);
+  print(dinheiro);
 
   List<String> TrioParadaDura = ["Vítor", "Kath", "Lucas"];
   List<dynamic> aleatoriedades = ["Vítor", true, 2];
@@ -22,12 +20,19 @@ main() {
 
   print(aleatoriedades);
 
-  //idade = input('qual a sua idade:');
-  if (idade >= 18) {
+  print('qual a sua idade:');
+  String? input = stdin.readLineSync();
+  
+  if(input != null){
+    var idade = int.parse(input);
+
+  if (idade >= 18){
     print("maior de idade");
   } else {
     print('menor de idade');
   }
+  }
+  
   for (int i = 1; i <= 5; i++) {
     print(i);
   }
