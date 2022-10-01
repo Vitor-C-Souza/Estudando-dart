@@ -1,8 +1,8 @@
 main() {
-  int idade = 24;
-  double dinheiro = 2000.24;
+  var idade = 24;
+  const double dinheiro = 2000.24;
   bool pobretometro = (idade > dinheiro);
-  String nome = "vitor";
+  final String nome = "vitor";
 
   print(nome);
   print(pobretometro);
