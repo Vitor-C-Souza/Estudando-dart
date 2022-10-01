@@ -1,13 +1,14 @@
 main() {
-  var hello = HelloWorld();
-  hello.mensagem = "Hello World!";
-  hello.Saudacao();
-}
+  int idade = 24;
+  double dinheiro = 2000.24;
+  bool pobretometro = (idade > dinheiro);
+  String nome = "vitor";
 
-class HelloWorld {
-  String mensagem = "";
+  print(nome);
+  print(pobretometro);
 
-  Saudacao() {
-    print(mensagem);
-  }
+  List<String> TrioParadaDura = ["Vítor", "Kath", "Lucas"];
+  List<dynamic> aleatoriedades = ["Vítor", true, 2];
+
+  print(aleatoriedades);
 }
