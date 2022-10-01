@@ -5,7 +5,7 @@ import 'dart:io';
 var duration = Duration(seconds: 1);
 const double dinheiro = 2000.24;
 final String nome = "vitor";
-const int tabuada = 48;
+const int tabuada = 63;
 int? resultado;
 List<String> TrioParadaDura = ["Vítor", "Kath", "Lucas"];
 List<dynamic> aleatoriedades = ["Vítor", true, 2];
